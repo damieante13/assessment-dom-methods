@@ -30,3 +30,8 @@ link.setAttribute("href", "https://www.marvel.com/movies/avengers-infinity-war")
 link.textContent="Avengers Assemble"
 
 divElement.append(link)
+
+
+button.addEventListener("click", function(){
+    document.body.removeChild(divElement)
+})
